@@ -35,7 +35,7 @@ describe 'RECIPE_HASH' do
   end
 
   describe '#amount_of_chocolate_chips' do
-    it 'returns 3 cups' do
+    it 'returns 3/4 cups' do
       expect(amount_of_chocolate_chips(@perfect_10_ingredients)).to eq("3/4 cup")
     end
   end
